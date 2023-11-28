@@ -1,0 +1,30 @@
+.product-card {
+  width: 325px;
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+}
+.product-card img {
+  width: 100%;
+  font-size: 10px;
+}
+
+.product-card-brand p {
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.product-card-name p {
+  font-size: 0.9rem;
+}
+
+.product-card-price h6 {
+  font-weight: 900;
+  font-size: 0.9rem;
+}
+
+.product-card-navlink {
+  text-decoration: none;
+  color: black;
+}

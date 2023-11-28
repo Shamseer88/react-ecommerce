@@ -1,0 +1,28 @@
+.pagination-div {
+  padding: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination-buttons {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+
+.pagination-buttons button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: var(--color-green);
+  color: #fff;
+  padding: 0.5rem 2rem;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.pagination-buttons p {
+  font-weight: 700;
+}
